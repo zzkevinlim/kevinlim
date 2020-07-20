@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        kevinlim
+        KEVINLim.NET
       </h1>
       <div class="links">
         <a
