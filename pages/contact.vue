@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" style="margin-top: 80px;">
     <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100vh;">
       <div class="row">
         <div class="col-lg-12">

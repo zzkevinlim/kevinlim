@@ -1,5 +1,5 @@
 <template>
-  <div class="container" style="margin-top: 180px;">
+  <div class="container">
     <div class="row">
       <div class="col-lg-12 pb-3">
         <h1>Recent projects (2020): </h1>
@@ -31,3 +31,15 @@
     </div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+  .container {
+    margin-top: 180px;
+
+    @media (max-width: 991px) {
+      .container {
+        margin-top: 80px;
+      }
+    }
+  }
+</style>
