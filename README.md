@@ -1,4 +1,6 @@
-# kevinlim
+# kevinlim.net
+
+See [kevinlim.net](https://kevinlim.net).
 
 ## Build Setup
 
