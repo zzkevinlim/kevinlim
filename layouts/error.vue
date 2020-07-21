@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100vh;">
+    <div class="content d-flex flex-column align-items-center justify-content-center">
       <div class="row">
         <div class="col-lg-12">
           <h1 class="display-1 text-center">
@@ -12,3 +12,9 @@
     </div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+  .content {
+    height: 100vh;
+  }
+</style>

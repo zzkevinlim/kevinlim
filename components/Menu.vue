@@ -2,7 +2,7 @@
   <b-navbar toggleable="lg" fixed="top">
     <b-navbar-brand to="/">
       <div class="d-flex flex-row align-items-center justify-content-start">
-        <img src="~/assets/images/logo.png" class=" d-none d-lg-block mr-2">
+        <img src="~/assets/images/logo.png" class="d-none d-lg-block mr-2">
         <div class="d-flex flex-column align-items-start justify-content-center">
           <h1 class="mb-0">
             KEVINLim.NET
@@ -28,13 +28,19 @@
 </template>
 
 <style lang="scss" scoped>
-  .navbar-toggler {
-    border: none;
-  }
-
-  @media (max-width: 991px) {
-    #nav-collapse {
+  #nav-collapse {
+    @media (max-width: 991px) {
       background: #f7f8fb;
     }
+  }
+
+  .navbar-brand {
+    @media (max-width: 991px) {
+      font-size: rfs(1rem);
+    }
+  }
+
+  .navbar-toggler {
+    border: none;
   }
 </style>
