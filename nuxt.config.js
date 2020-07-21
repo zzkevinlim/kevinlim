@@ -128,10 +128,5 @@ export default {
   },
   googleAnalytics: {
     id: 'UA-141687151-1'
-  },
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID
-    }
   }
 }
