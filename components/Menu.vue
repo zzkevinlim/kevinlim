@@ -2,7 +2,7 @@
   <b-navbar toggleable="lg" fixed="top">
     <b-navbar-brand to="/">
       <div class="d-flex flex-row align-items-center justify-content-start">
-        <img src="~/assets/images/logo.png" class="d-none d-lg-block mr-2">
+        <img class="d-none d-lg-block mr-2" src="~/assets/images/logo.png" alt="Website Logo">
         <div class="d-flex flex-column align-items-start justify-content-center">
           <h1 class="mb-0">
             KEVINLim.NET
