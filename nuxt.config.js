@@ -14,7 +14,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Kevin Lim | Auckland Based Web Developer' || process.env.npm_package_name,
     meta: [
       { charset: 'utf-8' },
       {
@@ -22,9 +22,9 @@ export default {
         content: 'width=device-width, initial-scale=1'
       },
       {
-        hid: 'description',
-        name: 'description',
-        content: process.env.npm_package_description || ''
+        hid: 'An objective-driven web developer with a passion for thoughtful user interface design and web development',
+        name: 'An objective-driven web developer with a passion for thoughtful user interface design and web development',
+        content: 'An objective-driven web developer with a passion for thoughtful user interface design and web development' || process.env.npm_package_description
       }
     ],
     link: [
@@ -63,7 +63,8 @@ export default {
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
-    '@nuxtjs/fontawesome'
+    '@nuxtjs/fontawesome',
+    '@nuxtjs/google-analytics'
   ],
   /*
   ** Nuxt.js modules
@@ -123,6 +124,14 @@ export default {
   fontawesome: {
     icons: {
       solid: ['faGlobe', 'faEnvelope', 'faLink']
+    }
+  },
+  googleAnalytics: {
+    id: 'UA-141687151-1'
+  },
+  publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
     }
   }
 }

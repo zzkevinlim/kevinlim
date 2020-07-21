@@ -28,6 +28,10 @@
 </template>
 
 <style lang="scss" scoped>
+  .navbar-toggler {
+    border: none;
+  }
+
   @media (max-width: 991px) {
     #nav-collapse {
       background: #f7f8fb;
