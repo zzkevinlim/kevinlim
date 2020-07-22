@@ -37,16 +37,12 @@
 
 <style lang="scss" scoped>
   .content {
-    height: 100vh;
-
-    @media (max-width: 991px) {
-      margin-top: 50px;
-    }
+    height: calc(100vh - 100px);
   }
 
-  h1 {
+  svg {
     @media (max-width: 991px) {
-      font-size: rfs(1rem);
+      display: none;
     }
   }
 </style>

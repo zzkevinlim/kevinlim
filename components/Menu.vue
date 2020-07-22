@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable="lg" fixed="top">
+  <b-navbar toggleable="lg">
     <b-navbar-brand to="/">
       <div class="d-flex flex-row align-items-center justify-content-start">
         <img class="d-none d-lg-block mr-2" src="~/assets/images/logo.png" alt="Website Logo">
@@ -34,13 +34,8 @@
     }
   }
 
-  .navbar-brand {
-    @media (max-width: 991px) {
-      font-size: rfs(1rem);
-    }
-  }
-
   .navbar-toggler {
     border: none;
+    outline-color: #f7f8fb;
   }
 </style>
