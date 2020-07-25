@@ -16,10 +16,10 @@
     <b-navbar-toggle target="nav-collapse" />
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
-        <b-nav-item class="px-3" to="/projects">
+        <b-nav-item to="/projects">
           <h3>Projects</h3>
         </b-nav-item>
-        <b-nav-item class="px-3" to="/contact">
+        <b-nav-item to="/contact">
           <h3>Contact</h3>
         </b-nav-item>
       </b-navbar-nav>
