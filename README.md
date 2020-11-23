@@ -1,3 +1,3 @@
 # kevinlim.net
 
-Check out [https://www.kevinlim.net](https://www.kevinlim.net)
+[https://kevinlim.net](https://kevinlim.net)
